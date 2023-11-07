@@ -14,19 +14,19 @@
       <form>
         <div class="double">
           <div class="form-harcama">
-            <label for="">Harcama:</label>
+            <label for="harcama">Harcama:</label>
             <input type="text" placeholder="Ürünü giriniz" id="harcama" />
           </div>
 
           <div class="form-fiyat">
-            <label for="">Fiyat:</label>
+            <label for="fiyat">Fiyat:</label>
             <input type="number" placeholder="Fiyatları Giriniz" id="fiyat" />
           </div>
         </div>
         <div class="double">
           <div class="form-state">
-            <input type="checkbox" />
-            <label for="">Ödendi</label>
+            <input type="checkbox" id="status-input" />
+            <label for="ödendi">Ödendi</label>
           </div>
 
           <button class="ekle-btn">Ekle</button>
@@ -37,7 +37,7 @@
         Toplam Harcama: <span id="total-info">0 </span>₺
       </div>
 
-      <select name="" id="">
+      <select name="" id="filter-select">
         <option value="all">Hepsi</option>
         <option value="not-payed">Ödenmedi</option>
         <option value="payed">Ödendi</option>
